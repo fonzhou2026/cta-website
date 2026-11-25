@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="NO₂ molecules in tunnel air are captured on the pore surfaces of activated carbon; cleaned air flows on.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D2A52"/><stop offset="1" stop-color="#06142B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="300" cy="240" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FC4" stop-opacity=".35"/><stop offset="1" stop-color="#1F6FC4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gN" cx=".36" cy=".32" r=".75">
+      <stop offset="0" stop-color="#BFDBFA"/><stop offset=".35" stop-color="#3F8CDB"/><stop offset=".75" stop-color="#0058A7"/><stop offset="1" stop-color="#012A55"/>
+    </radialGradient>
+    <radialGradient id="gO" cx=".36" cy=".32" r=".75">
+      <stop offset="0" stop-color="#FFC2BC"/><stop offset=".35" stop-color="#F2464B"/><stop offset=".75" stop-color="#C4000E"/><stop offset="1" stop-color="#5E0007"/>
+    </radialGradient>
+    <linearGradient id="gBond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1F5FA"/><stop offset="1" stop-color="#8A97A8"/>
+    </linearGradient>
+    <linearGradient id="gC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56637A"/><stop offset=".55" stop-color="#2E3849"/><stop offset="1" stop-color="#1A212D"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="30" y1="0" x2="570" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C09A6B" stop-opacity=".15"/><stop offset=".2" stop-color="#C09A6B" stop-opacity=".75"/>
+      <stop offset=".4" stop-color="#C09A6B" stop-opacity=".75"/><stop offset=".6" stop-color="#4FA6FF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#4FA6FF" stop-opacity=".85"/>
+    </linearGradient>
+    <pattern id="hex" width="17.32" height="30" patternUnits="userSpaceOnUse">
+      <path d="M8.66 0 17.32 5V15L8.66 20 0 15V5ZM8.66 20V30" fill="none" stroke="#fff" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#4FA6FF"/>
+    </marker>
+    <!-- NO₂：键角约 134°，N 蓝 O 红 -->
+    <g id="no2">
+      <path d="M0 0 -31 13M0 0 31 13" stroke="url(#gBond)" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="-31" cy="13" r="12" fill="url(#gO)"/>
+      <circle cx="31" cy="13" r="12" fill="url(#gO)"/>
+      <circle cx="0" cy="0" r="13" fill="url(#gN)"/>
+    </g>
+    <!-- 空气中的 N₂ / O₂ -->
+    <g id="air" fill="#C9D5E3" fill-opacity=".5">
+      <circle cx="-6" cy="0" r="6"/><circle cx="6" cy="0" r="6"/>
+    </g>
+    <g id="bed">
+      <path d="M238 80 258 62 292 64 304 88 296 118 266 128 242 112Z"/>
+      <path d="M314 70 342 60 364 78 366 110 348 128 318 124 310 96Z"/>
+      <path d="M240 148 264 134 300 138 314 162 304 190 274 198 246 184 236 164Z"/>
+      <path d="M324 150 346 138 366 154 364 186 340 198 320 182Z"/>
+      <path d="M244 222 276 206 306 212 316 238 300 264 264 268 242 250Z"/>
+      <path d="M328 224 350 212 368 228 366 258 344 274 324 258 320 240Z"/>
+      <path d="M238 296 262 280 296 284 308 308 298 336 268 342 242 326Z"/>
+      <path d="M320 300 346 288 366 302 368 334 346 348 322 338 316 318Z"/>
+      <path d="M244 372 272 356 306 360 318 384 306 410 270 416 246 400Z"/>
+      <path d="M330 370 352 360 368 378 364 408 340 418 324 400Z"/>
+    </g>
+  </defs>
+
+  <rect width="600" height="480" fill="url(#bg)"/>
+  <rect width="600" height="480" fill="url(#glow)"/>
+
+  <!-- 气流：进入时为污染空气（暖棕），穿过活性炭后变为洁净空气（蓝） -->
+  <g fill="none" stroke="url(#flow)" stroke-width="2" stroke-linecap="round" marker-end="url(#arr)">
+    <path d="M30 100C150 86 200 114 300 100S450 86 566 100"/>
+    <path d="M30 170C150 156 200 184 300 170S450 156 566 170"/>
+    <path d="M30 240C150 226 200 254 300 240S450 226 566 240"/>
+    <path d="M30 310C150 296 200 324 300 310S450 296 566 310"/>
+    <path d="M30 380C150 366 200 394 300 380S450 366 566 380"/>
+  </g>
+
+  <!-- 活性炭过滤床 -->
+  <rect x="224" y="46" width="156" height="388" rx="18" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".18" stroke-dasharray="4 6"/>
+  <!-- 活性炭颗粒：石墨蜂窝纹理 + 微孔 -->
+  <use href="#bed" fill="url(#gC)" stroke="#6B7A92" stroke-width="1.5" stroke-linejoin="round"/>
+  <use href="#bed" fill="url(#hex)"/>
+  <g fill="#0B1018">
+    <ellipse cx="270" cy="90" rx="7" ry="5"/><ellipse cx="284" cy="108" rx="4" ry="3"/>
+    <ellipse cx="340" cy="92" rx="6" ry="4"/><ellipse cx="350" cy="112" rx="3.5" ry="2.5"/>
+    <ellipse cx="282" cy="160" rx="7" ry="5"/><ellipse cx="262" cy="178" rx="4" ry="3"/>
+    <ellipse cx="344" cy="168" rx="5" ry="4"/>
+    <ellipse cx="280" cy="236" rx="7" ry="5"/><ellipse cx="292" cy="252" rx="4" ry="3"/>
+    <ellipse cx="346" cy="246" rx="6" ry="4"/>
+    <ellipse cx="274" cy="310" rx="6" ry="4"/><ellipse cx="282" cy="326" rx="4" ry="3"/>
+    <ellipse cx="344" cy="318" rx="6" ry="4"/>
+    <ellipse cx="280" cy="384" rx="7" ry="5"/><ellipse cx="294" cy="400" rx="4" ry="3"/>
+    <ellipse cx="346" cy="390" rx="5" ry="4"/>
+  </g>
+
+  <!-- 被吸附在活性炭表面的 NO₂ -->
+  <use href="#no2" transform="translate(236 102) rotate(-100) scale(.5)"/>
+  <use href="#no2" transform="translate(234 174) rotate(-80) scale(.5)"/>
+  <use href="#no2" transform="translate(240 238) rotate(-95) scale(.5)"/>
+  <use href="#no2" transform="translate(234 312) rotate(-85) scale(.5)"/>
+  <use href="#no2" transform="translate(242 388) rotate(-100) scale(.5)"/>
+  <use href="#no2" transform="translate(272 92) scale(.36)"/>
+  <use href="#no2" transform="translate(282 238) rotate(15) scale(.36)"/>
+  <use href="#no2" transform="translate(316 176) rotate(-90) scale(.42)"/>
+  <use href="#no2" transform="translate(320 330) rotate(-70) scale(.42)"/>
+
+  <!-- 进入的空气：NO₂ 与 N₂/O₂ 混合 -->
+  <use href="#air" transform="translate(66 214) rotate(20)"/>
+  <use href="#air" transform="translate(196 336) rotate(-30)"/>
+  <use href="#air" transform="translate(104 404) rotate(10)"/>
+  <use href="#air" transform="translate(180 72) rotate(-15)"/>
+  <use href="#no2" transform="translate(132 172) scale(1.7)"/>
+  <use href="#no2" transform="translate(100 304) rotate(28) scale(.95)"/>
+  <use href="#no2" transform="translate(186 252) rotate(-38) scale(.75)"/>
+  <use href="#no2" transform="translate(158 382) rotate(130) scale(.85)"/>
+  <use href="#no2" transform="translate(92 92) rotate(-30) scale(.55)"/>
+
+  <!-- 离开的洁净空气：只剩 N₂/O₂ -->
+  <use href="#air" transform="translate(436 136) rotate(15)"/>
+  <use href="#air" transform="translate(506 206) rotate(-25)"/>
+  <use href="#air" transform="translate(452 282) rotate(30)"/>
+  <use href="#air" transform="translate(528 352) rotate(-10)"/>
+  <use href="#air" transform="translate(470 408) rotate(20)"/>
+  <use href="#air" transform="translate(520 76) rotate(-30)"/>
+  <use href="#air" transform="translate(410 340) rotate(-40)"/>
+  <use href="#air" transform="translate(414 206) rotate(5)"/>
+
+  <text x="164" y="130" fill="#fff" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700">NO<tspan font-size="18" dy="7">2</tspan></text>
+</svg>
