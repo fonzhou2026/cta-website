@@ -62,8 +62,8 @@ function route6(current) {
   const xs = [x0]; segs.forEach((s) => xs.push(xs[xs.length - 1] + (s / total) * (x1 - x0)));
   const Y = 120;
   const S = [
-    { id: "ckr", cta: true, name: { en: "Yau Ma Tei Section (CKR)", zh: "油麻地段（中九龙绕道）" }, sub: { en: "4.7 km · opened Dec 2025", zh: "4.7 km · 2025 年 12 月通车" }, note: { en: "9 CTA stations · 3 ventilation buildings", zh: "9 座 CTA 净化站 · 3 座通风大楼" } },
-    { id: "t2", cta: true, name: { en: "Kowloon Bay Section (T2)", zh: "九龙湾段（T2）" }, sub: { en: "3.4 km · Dec 2026", zh: "3.4 km · 2026 年 12 月通车" }, note: { en: "CTA system · West ventilation building", zh: "CTA 系统 · 西通风大楼" } },
+    { id: "ckr", cta: true, name: { en: "Yau Ma Tei Section", zh: "油麻地段" }, sub: { en: "4.7 km · opened Dec 2025", zh: "4.7 km · 2025 年 12 月通车" }, note: { en: "9 CTA stations · 3 ventilation buildings", zh: "9 座 CTA 净化站 · 3 座通风大楼" } },
+    { id: "t2", cta: true, name: { en: "Kowloon Bay Section", zh: "九龙湾段" }, sub: { en: "3.4 km · Dec 2026", zh: "3.4 km · 2026 年 12 月通车" }, note: { en: "CTA system · West ventilation building", zh: "CTA 系统 · 西通风大楼" } },
     { id: "tkolt", cta: false, name: { en: "Tseung Kwan O–Lam Tin Tunnel", zh: "将军澳—蓝田隧道" }, sub: { en: "3.8 km · opened Dec 2022", zh: "3.8 km · 2022 年 12 月通车" } }
   ];
   const nodes = [
@@ -80,6 +80,11 @@ function route6(current) {
     g += t(s.sub, mid, Y - 14, "r6-sub");
     if (s.note) g += t(s.note, mid, Y + 40, "r6-note" + (s.id === current ? " is-current" : ""));
   });
+  { // 两段同属中九龙绕道：上方括号
+    const a = xs[0] + 6, b = xs[2] - 6, y = 46;
+    g += `<path d="M${a.toFixed(1)} ${y + 10}V${y}H${b.toFixed(1)}V${y + 10}" class="r6-group-line"/>`;
+    g += t({ en: "CENTRAL KOWLOON ROUTE", zh: "中九龙绕道" }, (a + b) / 2, y - 10, "r6-group");
+  }
   if (current === "t2") { // 西通风大楼大致位置（示意）
     const vx = xs[1] + (xs[2] - xs[1]) * 0.22;
     g += `<rect x="${(vx - 7).toFixed(1)}" y="${Y - 7}" width="14" height="14" rx="3" class="r6-vent"/>`;

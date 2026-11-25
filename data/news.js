@@ -46,14 +46,14 @@ window.CTA_NEWS = {
       body: {
         en: [
           "On 6 December 2026, the Central Kowloon Route (Kowloon Bay Section) opened to traffic, completing the 12.5 km Route 6. The West Ventilation Building of the Kowloon Bay Section uses a tunnel air purification system designed, manufactured, installed and commissioned by Clean Tunnel Air International AS (CTA), a member of AirQuality Group. It is the second CTA system on Route 6, following the opening of the Yau Ma Tei Section in December 2025.",
-          "Formerly known as Trunk Road T2 and the Cha Kwo Ling Tunnel, the Kowloon Bay Section is about 3.4 km long, about 3.1 km of it in tunnel, with a dual two-lane carriageway. It connects the Yau Ma Tei Section in the west with the Tseung Kwan O–Lam Tin Tunnel in the east, with West and East Ventilation Buildings along the route. Together the three sections form an east–west expressway linking West Kowloon with Tseung Kwan O.",
+          "Formerly known as Trunk Road T2 and the Cha Kwo Ling Tunnel, the Kowloon Bay Section is about 3.4 km long, about 3.1 km of it in tunnel, with a dual two-lane carriageway. It connects the Yau Ma Tei Section in the west with the Tseung Kwan O–Lam Tin Tunnel in the east, with West and East Ventilation Buildings along the route. Together the three sections form an east–west expressway linking West Kowloon with Tseung Kwan O. With Route 6 complete, the peak-hour journey between Tseung Kwan O town centre and Yau Ma Tei is expected to fall from about 65 minutes before the route was built to about 12 minutes.",
           "Running mostly underground through the dense districts of Kai Tak and Cha Kwo Ling, the section will carry heavy through-traffic for decades. Vehicle exhaust concentrates in long tunnels — particles, carbon monoxide, hydrocarbons and nitrogen oxides — and, released untreated through a ventilation building, would affect the people who live and work nearby. The West Ventilation Building therefore treats tunnel exhaust centrally before it is released.",
           "CTA's system follows an active-purification approach rather than relying only on dilution and dispersion. It combines high-efficiency electrostatic filtration, removal of harmful gases and automatic washing, with real-time monitoring and control that adjusts operation to traffic volume and pollutant concentration, keeping performance stable under heavy load.",
           "The project took the CTA and AQT teams five and a half years, from system design through manufacture, installation and commissioning. Team members in Shanghai, Hong Kong and Norway worked across sites with all parties to install and integrate large equipment within the limited space of the ventilation building, delivering on time and to specification. CTA will continue to provide operation, maintenance and quality assurance for the system."
         ],
         zh: [
           "2026年12月6日，香港中九龙绕道（九龙湾段）正式通车，全长12.5公里的六号干线由此全线贯通。九龙湾段的西通风大楼采用了隧道空气净化系统，由爱优特集团旗下的挪威隧道空气净化国际有限公司（CTA）负责设计、生产、安装及调试。继2025年12月中九龙绕道（油麻地段）通车之后，这是爱优特/CTA团队在六号干线上交付的又一套隧道空气净化系统。",
-          "中九龙绕道（九龙湾段）前称T2主干路及茶果岭隧道，全长约3.4公里，其中约3.1公里为隧道段，采用双程双线设计。路段西接中九龙绕道（油麻地段），东连将军澳—蓝田隧道，沿线设有西、东两座通风大楼。三段共同构成一条连接西九龙与将军澳的东西向快速干道。",
+          "中九龙绕道（九龙湾段）前称T2主干路及茶果岭隧道，全长约3.4公里，其中约3.1公里为隧道段，采用双程双线设计。路段西接中九龙绕道（油麻地段），东连将军澳—蓝田隧道，沿线设有西、东两座通风大楼。三段共同构成一条连接西九龙与将军澳的东西向快速干道。六号干线全线通车后，繁忙时段往返将军澳市中心及油麻地的行车时间，预计将由六号干线兴建前约65分钟大幅减至约12分钟。",
           "九龙湾段以隧道为主，穿越启德、茶果岭一带的高密度城区，通车后将长期承载大量过境车流。长隧道内会聚集大量汽车尾气，主要污染物包括颗粒物、一氧化碳、碳氢化合物和氮氧化物等；若经通风大楼直接排放，将影响周边居民和上班族的呼吸健康。为此，项目在西通风大楼内配置了隧道空气净化系统，在废气排放前进行集中处理。",
           "CTA 的系统采用“主动净化”技术路径，不同于单纯依靠空气稀释和自然扩散的传统通风方式。系统集成了高效静电过滤、有害气体去除和自动清洗等核心技术，并配备实时智能监测与控制系统，可根据车流量和污染物浓度动态调整运行参数，在高负荷交通场景下保持稳定、高效的净化效果。",
           "爱优特/CTA团队为此项目投入了五年半时间，完成了系统设计、生产、安装和调试全过程。来自上海、香港和挪威的团队成员跨地协作，与各方密切配合，在通风大楼有限的空间内完成了大型设备的安装与系统联调，按时按质完成交付。此后 CTA 还将为系统提供运营维护与质量保证。"
@@ -72,13 +72,13 @@ window.CTA_NEWS = {
       },
       body: {
         en: [
-          "On 21 December 2025, the Central Kowloon Route (Yau Ma Tei Section) in Hong Kong opened to traffic. The route is about 4.7 km long, including a tunnel of about 3.8 km beneath the dense districts of Kowloon.",
+          "On 21 December 2025, the Central Kowloon Route (Yau Ma Tei Section) in Hong Kong opened to traffic. The route is about 4.7 km long, with a dual three-lane carriageway, including a tunnel of about 3.9 km beneath the dense districts of Kowloon.",
           "Clean Tunnel Air International AS (CTA), a member of AirQuality Group, designed, manufactured and installed the tunnel's air purification system: nine air purification stations housed in three ventilation buildings, with a combined treated airflow of 2,250 m³/s — the largest project CTA has delivered.",
           "Using high-efficiency electrostatic filtration and other active purification technologies, the system treats tunnel exhaust before it is released through the ventilation buildings, reducing the impact on the neighbourhoods around them.",
           "The Yau Ma Tei Section is the western part of Route 6, an east–west expressway linking West Kowloon with Tseung Kwan O. CTA is also delivering the air purification system for Route 6's Kowloon Bay Section."
         ],
         zh: [
-          "2025年12月21日，香港中九龙绕道（油麻地段）正式通车。路段全长约4.7公里，其中约3.8公里为隧道，穿行于九龙高密度城区之下。",
+          "2025年12月21日，香港中九龙绕道（油麻地段）正式通车。路段全长约4.7公里，采用双程三线分隔车道，包括长约3.9公里的隧道，穿行于九龙高密度城区之下。",
           "爱优特集团旗下的挪威隧道空气净化国际有限公司（CTA）负责该隧道空气净化系统的设计、制造与安装：3座通风大楼内共设9个空气处理站，总处理风量达 2,250 m³/s，是 CTA 迄今交付规模最大的项目。",
           "系统采用高效静电过滤等主动净化技术，在隧道废气经通风大楼排放前进行集中处理，减轻对周边社区空气质量的影响。",
           "油麻地段是六号干线的西段。六号干线是一条连接西九龙与将军澳的东西向快速干道，CTA 同时承担其九龙湾段的空气净化系统。"

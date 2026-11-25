@@ -21,7 +21,7 @@ window.CTA_PROJECTS = [
     id: "t2", featured: true, region: "asia", type: "bypass",
     image: "assets/img/projects/t2.webp", page: "projects/kowloon-bay-t2.html",
     years: "—", flow: 230,
-    name:  { en: "Kowloon Bay Section (Trunk Road T2)", zh: "九龙湾段（T2 主干路）" },
+    name:  { en: "Central Kowloon Route (Kowloon Bay Section)", zh: "中九龙绕道（九龙湾段）" },
     place: { en: "Hong Kong, China", zh: "中国香港" },
     spec:  { en: "Dual two-lane tunnel, 3,100 m", zh: "双向四车道隧道，全长 3,100 米" },
     note:  { en: "The final link of Route 6 — CTA's system in the West Ventilation Building.", zh: "六号干线的最后一段——CTA 系统位于西通风大楼。" }
