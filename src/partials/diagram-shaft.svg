@@ -1,0 +1,58 @@
+<svg class="dg" viewBox="0 0 800 400" role="img" aria-label="Shaft installation (section): polluted tunnel air rises into an underground air purification station, three fans push the cleaned air up a ventilation shaft, and it leaves through an outlet only about 1 m high at 7 to 9 m/s instead of a tall stack at 25 m/s.">
+  <defs>
+    <marker id="c-d" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#A8865E"/></marker>
+    <marker id="c-c" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#0A6CC4"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fff"/>
+  <rect class="dg-rock" x="0" y="120" width="800" height="280"/>
+  <!-- 周边社区 -->
+  <g fill="#C9D5E3">
+    <rect x="40" y="74" width="40" height="46"/><rect x="90" y="90" width="30" height="30"/>
+    <rect x="128" y="60" width="46" height="60"/><rect x="186" y="82" width="34" height="38"/>
+    <rect x="232" y="96" width="28" height="24"/>
+  </g>
+  <text class="dg-sub en" x="40" y="48">Neighbourhood</text>
+  <text class="dg-sub zh" x="40" y="48">周边社区</text>
+  <!-- 不净化时需要的高排风塔（对比） -->
+  <rect class="dg-ghost" x="730" y="12" width="28" height="108"/>
+  <text class="dg-sub en" x="720" y="30" text-anchor="end">Without purification:</text>
+  <text class="dg-sub zh" x="720" y="30" text-anchor="end">不净化时：</text>
+  <text class="dg-sub en" x="720" y="50" text-anchor="end">tall stack, 25 m/s</text>
+  <text class="dg-sub zh" x="720" y="50" text-anchor="end">需高排风塔，25 m/s</text>
+  <!-- 空腔白色填充 -->
+  <rect x="400" y="170" width="240" height="70" fill="#fff"/>
+  <rect x="420" y="238" width="32" height="54" fill="#fff"/>
+  <rect x="596" y="118" width="32" height="54" fill="#fff"/>
+  <rect x="0" y="290" width="800" height="70" fill="#fff"/>
+  <!-- 墙线 -->
+  <path class="dg-wall" d="M0 120H596M628 120H800"/>
+  <path class="dg-wall" d="M0 290H420M452 290H800M420 290V240M452 290V240"/>
+  <path class="dg-wall" d="M420 240H400V170H596M628 170H640V240H452M596 170V120M628 170V120"/>
+  <line class="dg-road" x1="0" y1="360" x2="800" y2="360"/>
+  <!-- 地面排风口（约 1 米） -->
+  <rect x="590" y="104" width="44" height="16" fill="#fff" stroke="#0B2244" stroke-width="2"/>
+  <!-- 气流 -->
+  <path class="dg-dirty" d="M40 325H400Q436 325 436 295V220Q436 205 451 205H456" marker-end="url(#c-d)"/>
+  <path class="dg-clean" d="M512 205H572Q612 205 612 180V72" marker-end="url(#c-c)"/>
+  <path d="M594 109H630M594 115H630" stroke="#0B2244" stroke-width="1.5"/>
+  <!-- 设备 -->
+  <rect class="dg-pre" x="462" y="180" width="8" height="50"/>
+  <rect class="dg-esp" x="480" y="180" width="10" height="50"/>
+  <rect class="dg-esp" x="498" y="180" width="10" height="50"/>
+  <circle class="dg-fan" cx="552" cy="184" r="9"/><circle class="dg-fan" cx="552" cy="205" r="9"/><circle class="dg-fan" cx="552" cy="226" r="9"/>
+  <!-- 标注 -->
+  <text class="dg-tc" x="624" y="80">7–9 m/s</text>
+  <text class="dg-sub en" x="580" y="98" text-anchor="end">Outlet ≈ 1 m high</text>
+  <text class="dg-sub zh" x="580" y="98" text-anchor="end">排风口约 1 米高</text>
+  <text class="en" x="640" y="150">Ventilation shaft</text>
+  <text class="zh" x="640" y="150">通风竖井</text>
+  <text class="en" x="652" y="200">3 fans</text>
+  <text class="zh" x="652" y="200">3 台风机</text>
+  <text class="dg-sub" x="652" y="222">&gt; 200,000 m³/h</text>
+  <text class="en" x="470" y="272">Air purification station</text>
+  <text class="zh" x="470" y="272">空气净化站</text>
+  <text class="dg-td en" x="40" y="314">Polluted tunnel air</text>
+  <text class="dg-td zh" x="40" y="314">隧道污染空气</text>
+  <text class="dg-sub en" x="20" y="388">Road tunnel</text>
+  <text class="dg-sub zh" x="20" y="388">公路隧道</text>
+</svg>

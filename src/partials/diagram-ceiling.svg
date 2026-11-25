@@ -1,0 +1,58 @@
+<svg class="dg" viewBox="0 0 800 400" role="img" aria-label="Ceiling-mounted installation (long section): compact stations hang from the tunnel ceiling at intervals of about 1 km; each draws in polluted air through an inertial filter, electrostatic filter and V-filter, and its fans blow cleaned air back along the tunnel.">
+  <defs>
+    <marker id="b-d" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#A8865E"/></marker>
+    <marker id="b-c" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#0A6CC4"/></marker>
+    <g id="b-unit">
+    <path d="M0 0V12L10 22H70L80 12V0" fill="#F4F7FB" stroke="#0B2244" stroke-width="2"/>
+    <rect class="dg-pre" x="14" y="3" width="7" height="13"/>
+    <rect class="dg-esp" x="27" y="3" width="7" height="13"/>
+    <rect class="dg-vf" x="40" y="3" width="7" height="13"/>
+    <circle class="dg-fan" cx="60" cy="10" r="6"/>
+  </g>
+  </defs>
+  <rect width="800" height="400" fill="#fff"/>
+  <!-- 放大：单个顶置净化站 -->
+  <line class="dg-wall" x1="236" y1="80" x2="604" y2="80"/>
+  <path d="M260 80V112L284 136H556L580 112V80" fill="#F4F7FB" stroke="#0B2244" stroke-width="2"/>
+  <path class="dg-dirty" d="M196 152Q240 152 262 106H372"/>
+  <path class="dg-clean" d="M392 106H660" marker-end="url(#b-c)"/>
+  <rect class="dg-pre" x="300" y="86" width="18" height="40" rx="2"/>
+  <rect class="dg-esp" x="370" y="86" width="18" height="40" rx="2"/>
+  <rect class="dg-vf" x="440" y="86" width="18" height="40" rx="2"/>
+  <path d="M443 90L455 98 443 106 455 114 443 122" fill="none" stroke="#0058A7" stroke-width="1.5"/>
+  <circle class="dg-fan" cx="512" cy="106" r="17"/>
+  <path d="M502 106H522M512 96V116" stroke="#fff" stroke-width="2"/>
+  <path class="dg-lead" d="M379 58V86M512 58V89M309 126V154M449 126V154"/>
+  <text class="en" x="379" y="52" text-anchor="middle">Electrostatic filter</text>
+  <text class="zh" x="379" y="52" text-anchor="middle">静电过滤器</text>
+  <text class="en" x="512" y="52" text-anchor="middle">Fans</text>
+  <text class="zh" x="512" y="52" text-anchor="middle">风机</text>
+  <text class="en" x="309" y="172" text-anchor="middle">Inertial filter</text>
+  <text class="zh" x="309" y="172" text-anchor="middle">惯性过滤器</text>
+  <text class="en" x="449" y="172" text-anchor="middle">V-filter</text>
+  <text class="zh" x="449" y="172" text-anchor="middle">V 型过滤器</text>
+  <text class="dg-td en" x="188" y="146" text-anchor="end">Polluted air</text>
+  <text class="dg-td zh" x="188" y="146" text-anchor="end">污染空气</text>
+  <text class="dg-tc en" x="676" y="112">Cleaned air</text>
+  <text class="dg-tc zh" x="676" y="112">洁净空气</text>
+  <!-- 隧道纵剖面 -->
+  <rect class="dg-rock" x="0" y="206" width="800" height="194"/>
+  <rect x="0" y="250" width="800" height="90" fill="#fff"/>
+  <line class="dg-wall" x1="0" y1="250" x2="800" y2="250"/>
+  <line class="dg-road" x1="0" y1="340" x2="800" y2="340"/>
+  <path class="dg-lead" d="M556 138L472 250" stroke-dasharray="4 4"/>
+  <use href="#b-unit" transform="translate(130 250)"/>
+  <use href="#b-unit" transform="translate(390 250)"/>
+  <use href="#b-unit" transform="translate(650 250)"/>
+  <path class="dg-dirty" d="M92 322Q126 322 134 276" marker-end="url(#b-d)"/>
+  <path class="dg-dirty" d="M352 322Q386 322 394 276" marker-end="url(#b-d)"/>
+  <path class="dg-dirty" d="M612 322Q646 322 654 276" marker-end="url(#b-d)"/>
+  <path class="dg-clean" d="M214 262H290" marker-end="url(#b-c)"/>
+  <path class="dg-clean" d="M474 262H550" marker-end="url(#b-c)"/>
+  <path class="dg-clean" d="M734 262H790" marker-end="url(#b-c)"/>
+  <path class="dg-lead" d="M170 362V378M170 370H430M430 362V378M430 370H690M690 362V378"/>
+  <text class="dg-sub" x="300" y="394" text-anchor="middle">≈ 1 km</text>
+  <text class="dg-sub" x="560" y="394" text-anchor="middle">≈ 1 km</text>
+  <text class="dg-sub en" x="20" y="236">Road tunnel, long section</text>
+  <text class="dg-sub zh" x="20" y="236">公路隧道纵剖面</text>
+</svg>

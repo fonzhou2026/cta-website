@@ -1,0 +1,52 @@
+<svg class="dg" viewBox="0 0 800 400" role="img" aria-label="Distributed ceiling-mounted installation (long section): compact jet filters with jet fans are spread along the ceiling of an existing tunnel; each draws in exhaust from the traffic below and blows cleaned air onward.">
+  <defs>
+    <marker id="d-d" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#A8865E"/></marker>
+    <marker id="d-c" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#0A6CC4"/></marker>
+    <g id="d-unit">
+      <path d="M13 0V4M49 0V4" stroke="#0B2244" stroke-width="2"/>
+      <rect class="dg-esp" x="0" y="4" width="26" height="22" rx="3"/>
+      <rect class="dg-fan" x="28" y="6" width="44" height="18" rx="9"/>
+    </g>
+    <g id="d-car">
+      <rect x="0" y="0" width="46" height="14" rx="4" fill="#5A6A80"/>
+      <rect x="8" y="-8" width="26" height="10" rx="3" fill="#5A6A80"/>
+      <circle cx="10" cy="15" r="4" fill="#0B1424"/><circle cx="36" cy="15" r="4" fill="#0B1424"/>
+    </g>
+  </defs>
+  <rect class="dg-rock" width="800" height="400"/>
+  <rect x="0" y="120" width="800" height="200" fill="#fff"/>
+  <line class="dg-wall" x1="0" y1="120" x2="800" y2="120"/>
+  <line class="dg-road" x1="0" y1="320" x2="800" y2="320"/>
+  <!-- 车辆 -->
+  <use href="#d-car" transform="translate(40 301)"/>
+  <use href="#d-car" transform="translate(230 301)"/>
+  <use href="#d-car" transform="translate(420 301)"/>
+  <use href="#d-car" transform="translate(610 301)"/>
+  <!-- 尾气被吸入，洁净空气向前吹出 -->
+  <path class="dg-dirty" d="M60 290C60 230 80 170 98 148" marker-end="url(#d-d)"/>
+  <path class="dg-dirty" d="M250 290C250 230 270 170 288 148" marker-end="url(#d-d)"/>
+  <path class="dg-dirty" d="M440 290C440 230 460 170 478 148" marker-end="url(#d-d)"/>
+  <path class="dg-dirty" d="M630 290C630 230 650 170 668 148" marker-end="url(#d-d)"/>
+  <path class="dg-clean" d="M176 135H262" marker-end="url(#d-c)"/>
+  <path class="dg-clean" d="M366 135H452" marker-end="url(#d-c)"/>
+  <path class="dg-clean" d="M556 135H642" marker-end="url(#d-c)"/>
+  <path class="dg-clean" d="M746 135H790" marker-end="url(#d-c)"/>
+  <use href="#d-unit" transform="translate(100 120)"/>
+  <use href="#d-unit" transform="translate(290 120)"/>
+  <use href="#d-unit" transform="translate(480 120)"/>
+  <use href="#d-unit" transform="translate(670 120)"/>
+  <!-- 标注（只标第一个单元） -->
+  <path class="dg-lead" d="M113 98V124M149 98V126"/>
+  <text class="en" x="118" y="90" text-anchor="end">Jet filter</text>
+  <text class="zh" x="118" y="90" text-anchor="end">射流过滤器</text>
+  <text class="en" x="140" y="90">Jet fan</text>
+  <text class="zh" x="140" y="90">射流风机</text>
+  <text class="dg-sub en" x="780" y="90" text-anchor="end">Fits existing, operating tunnels</text>
+  <text class="dg-sub zh" x="780" y="90" text-anchor="end">适用于既有运营隧道</text>
+  <text class="dg-td en" x="84" y="232">Exhaust</text>
+  <text class="dg-td zh" x="84" y="232">尾气</text>
+  <text class="dg-tc en" x="220" y="166" text-anchor="middle">Cleaned air</text>
+  <text class="dg-tc zh" x="220" y="166" text-anchor="middle">洁净空气</text>
+  <text class="dg-sub en" x="400" y="364" text-anchor="middle">Compact units along the tunnel · number and spacing set per tunnel</text>
+  <text class="dg-sub zh" x="400" y="364" text-anchor="middle">紧凑单元沿隧道分布 · 数量与间距按隧道设定</text>
+</svg>

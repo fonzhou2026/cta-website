@@ -1,0 +1,43 @@
+<svg class="dg" viewBox="0 0 800 400" role="img" aria-label="Bypass installation (plan view): polluted air from the main tunnel is drawn into a crescent-shaped side tunnel, passes a pre-filter, electrostatic filters and fans, and returns clean to the main tunnel.">
+  <defs>
+    <marker id="a-d" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#A8865E"/></marker>
+    <marker id="a-c" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 10 5 0 10z" fill="#0A6CC4"/></marker>
+  </defs>
+  <rect class="dg-rock" width="800" height="400"/>
+  <!-- 新月形旁路隧道（描边 + 白色填充） -->
+  <path d="M175 120 C225 340 575 340 625 120" fill="none" stroke="#0B2244" stroke-width="60"/>
+  <path d="M175 120 C225 340 575 340 625 120" fill="none" stroke="#fff" stroke-width="56"/>
+  <!-- 主隧道 -->
+  <rect x="0" y="70" width="800" height="80" fill="#fff"/>
+  <line class="dg-wall" x1="0" y1="70" x2="800" y2="70"/>
+  <path class="dg-wall" d="M0 150H152M216 150H584M648 150H800"/>
+  <line class="dg-lane" x1="0" y1="110" x2="800" y2="110"/>
+  <!-- 气流 -->
+  <path class="dg-dirty" d="M24 90H150" marker-end="url(#a-d)"/>
+  <path class="dg-dirty" d="M24 130H118Q160 130 178 160" marker-end="url(#a-d)"/>
+  <path class="dg-dirty" d="M205 190L258 240" marker-end="url(#a-d)"/>
+  <path class="dg-clean" d="M555 233L596 186" marker-end="url(#a-c)"/>
+  <path class="dg-clean" d="M622 160Q640 130 682 130H772" marker-end="url(#a-c)"/>
+  <!-- 设备：垂直于旁路走向 -->
+  <rect class="dg-pre" x="-4" y="-25" width="8" height="50" transform="translate(300.9 265.9) rotate(22.3)"/>
+  <rect class="dg-esp" x="-5" y="-25" width="10" height="50" transform="translate(352.3 280.7) rotate(10.2)"/>
+  <rect class="dg-esp" x="-5" y="-25" width="10" height="50" transform="translate(400 285)"/>
+  <rect class="dg-esp" x="-5" y="-25" width="10" height="50" transform="translate(447.7 280.7) rotate(-10.2)"/>
+  <g transform="translate(499.1 265.9) rotate(-22.3)">
+    <circle class="dg-fan" cx="0" cy="-12" r="11"/><circle class="dg-fan" cx="0" cy="12" r="11"/>
+    <path d="M-6 -12H6M0 -18V-6M-6 12H6M0 6V18" stroke="#fff" stroke-width="1.6"/>
+  </g>
+  <!-- 标注 -->
+  <text class="dg-td en" x="24" y="50">Polluted air from the main tunnel</text>
+  <text class="dg-td zh" x="24" y="50">主隧道污染空气</text>
+  <text class="dg-tc en" x="776" y="50" text-anchor="end">Cleaned air returns</text>
+  <text class="dg-tc zh" x="776" y="50" text-anchor="end">洁净空气回流</text>
+  <text class="en" x="296" y="196" text-anchor="middle">Pre-filter</text>
+  <text class="zh" x="296" y="196" text-anchor="middle">预过滤</text>
+  <text class="en" x="400" y="226" text-anchor="middle">Electrostatic filters</text>
+  <text class="zh" x="400" y="226" text-anchor="middle">静电除尘器</text>
+  <text class="en" x="506" y="196" text-anchor="middle">Fans</text>
+  <text class="zh" x="506" y="196" text-anchor="middle">风机</text>
+  <text class="dg-sub en" x="400" y="372" text-anchor="middle">Crescent-shaped bypass tunnel</text>
+  <text class="dg-sub zh" x="400" y="372" text-anchor="middle">新月形旁路隧道</text>
+</svg>
