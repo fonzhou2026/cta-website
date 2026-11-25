@@ -101,11 +101,11 @@ window.CTA_NEWS = {
       },
       body: {
         en: [
-          "To mark the opening of the Central Kowloon Route, CTA released a short documentary looking back at how the team designed, manufactured and delivered the tunnel's air purification system — 3,800 metres of tunnel, three ventilation buildings and nine air purification stations.",
+          "To mark the opening of the Central Kowloon Route, CTA released a short documentary looking back at how the team designed, manufactured and delivered the tunnel's air purification system — three ventilation buildings and nine air purification stations.",
           "The Chinese version premiered on 21 December 2025 on WeChat Channels, Sohu, Weibo, Tencent Video and Youku. The English version is available on YouTube."
         ],
         zh: [
-          "为纪念中九龙绕道通车，CTA 发布纪录短片，回顾团队为该隧道设计、制造并交付空气净化系统的过程——3800 米隧道，三座通风大楼，九个空气处理站。",
+          "为纪念中九龙绕道通车，CTA 发布纪录短片，回顾团队为该隧道设计、制造并交付空气净化系统的过程——三座通风大楼，九个空气处理站。",
           "中文版于2025年12月21日在视频号、搜狐号、微博、腾讯视频、优酷视频等平台首发，英文版可在 YouTube 观看。"
         ]
       },
