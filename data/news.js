@@ -24,10 +24,10 @@ window.CTA_NEWS = {
     video: "",
     embed: "https://www.youtube.com/embed/wvTYudKPuQA",
     link: "https://www.youtube.com/watch?v=wvTYudKPuQA",
-    title:    { en: "Opening of the Central Kowloon Tunnel, Hong Kong", zh: "香港中九龙隧道开通" },
+    title:    { en: "Central Kowloon Route (Yau Ma Tei Section)", zh: "中九龙绕道（油麻地段）" },
     subtitle: {
-      en: "How the CTA team designed, manufactured and delivered the tunnel air purification system for Hong Kong's Central Kowloon Route.",
-      zh: "回顾 CTA 团队为香港中九龙绕道设计、制造并交付隧道空气净化系统的过程。"
+      en: "How the CTA team designed, manufactured and delivered the tunnel air purification system for Hong Kong's Central Kowloon Route (Yau Ma Tei Section).",
+      zh: "回顾 CTA 团队为香港中九龙绕道（油麻地段）设计、制造并交付隧道空气净化系统的过程。"
     },
     meta:     { en: "Released Dec 2025 · 1 min 18 s", zh: "2025 年 12 月发布 · 约 1 分 17 秒" },
     episodes: []
@@ -92,8 +92,8 @@ window.CTA_NEWS = {
       image: "assets/img/projects/ckr.webp",
       embed: "https://www.youtube.com/embed/wvTYudKPuQA",
       title: {
-        en: "Short Documentary “Opening of the Central Kowloon Tunnel, Hong Kong” Released",
-        zh: "纪录短片《香港中九龙隧道开通》发布"
+        en: "Short Documentary “Central Kowloon Route (Yau Ma Tei Section)” Released",
+        zh: "纪录短片《中九龙绕道（油麻地段）》发布"
       },
       summary: {
         en: "In just over a minute, the film looks back at how the CTA team delivered the tunnel air purification system for the Central Kowloon Route.",
